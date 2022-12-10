@@ -3,12 +3,12 @@ import { ethers } from "hardhat";
 async function main() {
   
 
-  const Lock = await ethers.getContractFactory("stream");
+  const Lock = await ethers.getContractFactory("flee");
   const lock = await Lock.deploy();
 
   await lock.deployed();
 
-  console.log("stream address", lock.address);
+  console.log("flee address", lock.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
