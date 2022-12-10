@@ -57,7 +57,7 @@
         "type": "bool"
       }
     ],
-    "name": "StreamCancelled",
+    "name": "FleeCancelled",
     "type": "event"
   },
   {
@@ -118,7 +118,7 @@
         "type": "bool"
       }
     ],
-    "name": "StreamClaimed",
+    "name": "FleeClaimed",
     "type": "event"
   },
   {
@@ -173,7 +173,7 @@
         "type": "uint256"
       }
     ],
-    "name": "StreamCreated",
+    "name": "FleeCreated",
     "type": "event"
   },
   {
@@ -184,7 +184,7 @@
         "type": "uint256"
       }
     ],
-    "name": "cancelStream",
+    "name": "cancelFlee",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -217,14 +217,14 @@
         "type": "uint256"
       }
     ],
-    "name": "createStream",
+    "name": "createFlee",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "streamId",
+    "name": "fleeId",
     "outputs": [
       {
         "internalType": "uint256",
@@ -243,7 +243,7 @@
         "type": "uint256"
       }
     ],
-    "name": "streams",
+    "name": "flees",
     "outputs": [
       {
         "internalType": "address",
@@ -307,7 +307,7 @@
         "type": "uint256"
       }
     ],
-    "name": "withdrawFromStream",
+    "name": "withdrawFromFlee",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
